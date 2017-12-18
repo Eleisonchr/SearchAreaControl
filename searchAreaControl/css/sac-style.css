@@ -29,6 +29,7 @@
 .sac-header-holder {
     width:100%;   
     margin-bottom: 15px; 
+    display: flex;
 }
 
 .sac-header-h1 {
@@ -44,7 +45,7 @@
 }
 
 .sac-input-elem {
-    width: 200px;
+    flex: 1;
     height: 32px;
     border: 1px solid #d8d8d8;
     padding: 5px;
